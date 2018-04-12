@@ -63,6 +63,8 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
+    font-size: 30px;
+    
 }
 
 nav a img{
@@ -142,3 +144,39 @@ footer p{
 }
 
 /*------Responsive------*/
+
+@media only screen and (max-width: 991px){
+    header p{
+        width: 100%;
+    }
+    
+    .work a img{
+        margin: 2%;
+        width: 96%;
+    }
+    
+    .work2 a img{
+        margin: 2%;
+        width: 96%;
+    }   
+}
+
+@media only screen and (max-width: 768px){
+    header {
+        width: 96%;
+        margin: 30px auto 100px auto;
+        text-align: left;
+    }
+    
+    .whatIDo{
+        text-align: left;
+        width: 96%;
+        margin: 70px auto 100px auto;
+    }
+    
+    footer{
+        text-align: left;
+        width: 90%;
+        margin: 60px auto;
+    }
+}
